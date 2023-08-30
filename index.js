@@ -4,10 +4,7 @@ function isPalindrome(word) {
   const lettersArray = word.split('');
     
       // create a reverse string-array of the original word
-  const reverseArray = [];
-  for (let i = 0; i < lettersArray.length; i++) {
-      reverseArray.unshift(lettersArray[i]);
-  }
+  const reverseArray = lettersArray.reverse()
   
       // convert the string-array into a string
   const reverseWord = reverseArray.join('');
