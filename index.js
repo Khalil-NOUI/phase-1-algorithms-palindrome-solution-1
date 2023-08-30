@@ -3,7 +3,7 @@ function isPalindrome(word) {
       // split the original string into an array of letters
   const lettersArray = word.split('');
     
-      // create a reverse string-array of the original word
+      // create a reverse array
   const reverseArray = lettersArray.reverse()
   
       // convert the string-array into a string
@@ -27,6 +27,7 @@ function isPalindrome(word) {
   i need to write a function that takes a string as input then reverse it's letter ordering,the function check if the generated string is the same as the string input.
   if yes the function return a positive boolean and vice versa. 
 
+  using reverse() method is much better than employing a whole function
 */
 
 
